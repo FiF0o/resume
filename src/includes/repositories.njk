@@ -2,7 +2,7 @@
 <ol class="repolist">
     {% for repo in repositories.slice(0, 5) %}
         <li class="repolist__item">
-            <h3 class="repolist__title"><a href="{{ repo.html_url }}">{{ repo.name }}</a></h3>
+            <h3 class="repolist__title"><a href="{{ repo.html_url }}" target=”_blank”>{{ repo.name }}</a></h3>
             <p class="repolist__url utl-print-only">{{ repo.html_url }}</p>
             {% if repo.description %}
                 <p class="repolist__desc">{{ repo.description }}</p>

@@ -1,0 +1,33 @@
+{
+    "interests": [
+        "Football - (20 years +)",
+        "FA Football referee - (Level 7-8)",
+        "Founder of Sunday league football club - (CSFL Winners 2023)",
+        "Surf / Bodyboard",
+        "Snowboard",
+        "Skateboard",
+        "Powerlifting"
+   ],
+  "languages": [
+		{
+        	"name": "French",
+      		"level": "native"
+    	},
+		{
+			"name": "English",
+			"level": "fluent"
+		},
+		{
+			"name": "Italian",
+			"level": "basic"
+		},
+		{
+			"name": "Spanish",
+			"level": "basic"
+		}
+  	],
+  	"learnings": [
+    	"Terraform",
+    	"CKAD - (Kubernetes)"
+  	]
+}
