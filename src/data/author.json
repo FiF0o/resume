@@ -1,44 +1,82 @@
 {
-    "name": "Anna Quincey",
-    "occupation": "Front-End Developer",
-    "location": "Vienna, AT",
-    "avatar": "avatar.jpg",
-    "pronouns": "she/her",
-    "email": "anna.quincey@gmail.com",
-    "telephone": "+01 23 456 789",
-    "website": "https://annaquincey.dev",
+    "name": "Jon Lazarini",
+    "occupation": "Technical Lead, UX Practioner",
+    "location": "London, UK",
+    "avatar": "jon.png",
+    "pronouns": "",
+    "email": "foo",
+    "telephone": "bar",
+    "website": "https://fif0o.github.io/",
     "skills": [
-        "HTML",
-        "CSS",
-        "Javascript / ES6",
-        "UI Design",
-        "React",
-        "Git"
+        "Javascript / ES6 / Ts",
+        "AWS / Azure",
+        "React / Angular / Vue",
+        "HTML / CSS",
+        "NodeJs / Springboot",
+        "Java",
+        "Python",
+        "Git",
+        "Shell",
+        "Github / Bitbucket",
+        "UX / UI Design",
+        "UX Research"
+    ],
+    "soft_skills": [
+        "Javascript / ES6 / Ts",
+        "AWS / Azure",
+        "React / Angular / Vue",
+        "HTML / CSS",
+        "NodeJs / Springboot",
+        "Java",
+        "Python",
+        "Git",
+        "Shell",
+        "Github / Bitbucket",
+        "UX / UI Design",
+        "UX Research"
+    ],
+    "tools": [
+        "Javascript / ES6 / Ts",
+        "AWS / Azure",
+        "React / Angular / Vue",
+        "HTML / CSS",
+        "NodeJs / Springboot",
+        "Java",
+        "Python",
+        "Git",
+        "Shell",
+        "Github / Bitbucket",
+        "UX / UI Design",
+        "UX Research"
     ],
     "languages": [
         {
-            "name": "English",
+            "name": "French",
             "level": "native"
         },
         {
-            "name": "German",
+            "name": "English",
             "level": "fluent"
         },
         {
-            "name": "French",
+            "name": "Italian",
+            "level": "basic"
+        },
+        {
+            "name": "Spanish",
             "level": "basic"
         }
     ],
     "social": [
         {
             "name": "Github",
-            "user": "@annaquincey",
-            "url": "https://github.com/annaquincey"
+            "user": "@FiF0o",
+            "url": "https://github.com/FiF0o"
         },
         {
             "name": "LinkedIn",
-            "user": "AnnaQncy",
-            "url": "https://www.linkedin.com/in/annaquincey"
+            "user": "JonathanLazarini",
+            "url": "https://www.linkedin.com/in/jonathanlazarini/"
         }
     ]
 }

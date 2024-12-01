@@ -1,6 +1,6 @@
 {
   "name": "resume",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "description": "An online resume",
   "scripts": {
     "start": "npm run dev",
@@ -13,9 +13,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/maxboeck/resume"
+    "url": "https://github.com/FiF0o/resume"
   },
-  "author": "Max Böck",
+  "author": "Jon Lazarini",
   "license": "MIT",
   "dependencies": {
     "@11ty/eleventy": "^0.12.1",
@@ -43,7 +43,6 @@
   },
   "devDependencies": {
     "cross-env": "^7.0.3",
-    "node-sass": "^9.0.0",
-    "sass": "^1.81.0"
+    "node-sass": "^9.0.0"
   }
 }
