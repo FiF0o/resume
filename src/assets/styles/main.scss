@@ -42,6 +42,21 @@
 @import 'components/icon';
 @import 'components/gh-link';
 
+nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        li {
+            margin-left: 10px;
+        }
+    }
+}
+
 //--------------------
 // PRINT
 // styles for media: print

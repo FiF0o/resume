@@ -1,12 +1,14 @@
 {
     "name": "Jon Lazarini",
-    "occupation": "Technical Lead, UX Practioner",
+    "occupation": "Technical Lead, UX Practitioner",
     "location": "London, UK",
     "avatar": "jon.png",
-    "pronouns": "",
-    "email": "foo",
-    "telephone": "bar",
-    "website": "https://fif0o.github.io/",
+    "email": "lazarini.jonathan@gmail.com",
+    "telephone": "+44 7 446 130 301",
+    "website": "https://fif0o.github.io",
+    "recommendations": {
+        "link": "https://www.linkedin.com/in/jonathanlazarini/details/recommendations/"
+    },
     "skills": [
         "Javascript / ES6 / Ts",
         "AWS / Azure",
@@ -15,39 +17,32 @@
         "NodeJs / Springboot",
         "Java",
         "Python",
-        "Git",
+        "Terraform",
         "Shell",
-        "Github / Bitbucket",
+        "Open API",
         "UX / UI Design",
         "UX Research"
     ],
     "soft_skills": [
-        "Javascript / ES6 / Ts",
-        "AWS / Azure",
-        "React / Angular / Vue",
-        "HTML / CSS",
-        "NodeJs / Springboot",
-        "Java",
-        "Python",
-        "Git",
-        "Shell",
-        "Github / Bitbucket",
-        "UX / UI Design",
-        "UX Research"
+        "Project Management",
+        "Agile",
+        "Kaban",
+        "Lean"
     ],
     "tools": [
-        "Javascript / ES6 / Ts",
-        "AWS / Azure",
-        "React / Angular / Vue",
-        "HTML / CSS",
-        "NodeJs / Springboot",
-        "Java",
-        "Python",
         "Git",
-        "Shell",
+        "Docker / Kubernetes",
+        "Serverless",
+        "LocalStack",
+        "AWS Cli",
+        "PlantUML",
+        "Jira",
         "Github / Bitbucket",
-        "UX / UI Design",
-        "UX Research"
+        "Adobe",
+        "Axure RP",
+        "Miro",
+        "Sketch / InVision"
+
     ],
     "languages": [
         {

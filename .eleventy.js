@@ -1,19 +1,43 @@
 const pluginRss = require('@11ty/eleventy-plugin-rss')
 const markdownIt = require('markdown-it')
+const i18n = require('eleventy-plugin-i18n');
+
+const translations = require('./src/data/translations.js');
 
 const filters = require('./utils/filters.js')
 const transforms = require('./utils/transforms.js')
 const shortcodes = require('./utils/shortcodes.js')
 const iconsprite = require('./utils/iconsprite.js')
 
+const byStartDate = (a, b) => {
+    if (a.data.start && b.data.start) {
+        return a.data.start - b.data.start
+    }
+    return 0
+}
+
 module.exports = function (config) {
     // Plugins
     config.addPlugin(pluginRss)
+
+    // Internationalization cfg
+    config.addPlugin(i18n, {
+        translations,
+        fallbackLocales: {
+          '*': 'en'
+        }
+      });
 
     // Filters
     Object.keys(filters).forEach((filterName) => {
         config.addFilter(filterName, filters[filterName])
     })
+    // Content specific to section and not global (i.e translations.js)
+    config.addFilter('languageFilter', (key, language = 'en') => {
+        const lang = require(`./src/languages/${language}.json`);
+        return lang[key] || key;
+    });
+
 
     // Transforms
     Object.keys(transforms).forEach((transformName) => {
@@ -47,24 +71,29 @@ module.exports = function (config) {
     config.addLayoutAlias('resume', 'resume.njk')
 
     // Collections
-    // certfifications, projects
+    // Internationalization (i18n) with just English and French - Define Collections for each language
+    config.addCollection("en", (collectionApi) => {
+        return collectionApi.getFilteredByGlob("src/en/**/*.md");
+    });
+
+    config.addCollection("fr", (collectionApi) => {
+        return collectionApi.getFilteredByGlob("src/fr/**/*.md");
+    });
+
     const collections = ['work', 'education', 'projects', 'certifications']
+
     collections.forEach((name) => {
-        config.addCollection(name, function (collection) {
-            const folderRegex = new RegExp(`\/${name}\/`)
-            const inEntryFolder = (item) =>
-                item.inputPath.match(folderRegex) !== null
-
-            const byStartDate = (a, b) => {
-                if (a.data.start && b.data.start) {
-                    return a.data.start - b.data.start
-                }
-                return 0
-            }
-
+        config.addCollection(`en_${name}`, (collection) => {    
             return collection
-                .getAllSorted()
-                .filter(inEntryFolder)
+                .getFilteredByGlob(`src/en/entries/${name}/*.md`)
+                .sort(byStartDate)
+        })
+    })
+
+    collections.forEach((name) => {
+        config.addCollection(`fr_${name}`, (collection) => {    
+            return collection
+                .getFilteredByGlob(`src/fr/entries/${name}/*.md`)
                 .sort(byStartDate)
         })
     })

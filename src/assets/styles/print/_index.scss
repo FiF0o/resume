@@ -85,4 +85,9 @@
     .entry {
         page-break-inside: avoid;
     }
+
+    // UTILITY CLASSES
+    .no-print {
+        display: none;
+    }
 }

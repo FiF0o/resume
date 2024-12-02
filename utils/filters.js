@@ -5,6 +5,15 @@ const { DateTime } = require('luxon')
 const isEmpty = require('lodash/isEmpty')
 
 module.exports = {
+
+    languageFilter: function(collection, lang) {
+        if (!lang) lang = this.page.lang || this.ctx.lang;
+        console.log({collection})
+        const filtered = collection.filter(item => item.page.lang == lang);
+        console.log({filtered})
+        return filtered;
+    },
+
     dateToFormat: function (date, format) {
         return DateTime.fromJSDate(date, { zone: 'utc' }).toFormat(
             String(format)

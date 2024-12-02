@@ -7,16 +7,16 @@
     <div class="vcard__content">
         <div class="vcard__title">
             <h1 class="p-name">{{ author.name }}</h1>
-            {% if author.pronouns %}
-                <em class="vcard__pronouns p-gender-identity">({{ author.pronouns }})</em>
+            {% if translations.pronouns %}
+                <em class="vcard__pronouns p-gender-identity">({{ 'pronouns' | i18n }})</em>
             {% endif %}
         </div>
 
         <p class="vcard__subtitle lead">
-            <span class="p-job-title">{{ author.occupation }}</span>
-            {% if author.location %}
+            <span class="p-job-title">{{ 'occupation' | i18n }}</span>
+            {% if translations.location %}
                 <span aria-hidden="true">&middot;</span>
-                <span class="p-locality">{{ author.location }}</span>
+                <span class="p-locality">{{ 'location' | i18n }}</span>
             {% endif %}
         </p> 
 
@@ -34,7 +34,7 @@
                 </a>
             {% endif %}
             {% if author.website %}
-                <a class="vcard__link u-url" aria-label="Website" href="{{ author.website }}">
+                <a class="vcard__link u-url" aria-label="Website" href="{{ author.website }}" target=”_blank”>
                     {% icon "laptop" %}
                     <span class="vcard__link-text">{{ author.website | stripProtocol }}</span>
                 </a>
@@ -43,7 +43,7 @@
             {% if author.social %}
                 <div class="vcard__social">
                     {% for social in author.social %}
-                        <a class="vcard__link" href="{{ social.url }}" aria-label="{{ social.name }}" rel="me">
+                        <a class="vcard__link" href="{{ social.url }}" aria-label="{{ social.name }}" rel="me" target=”_blank”>
                             {%- set isSocialIcon = true -%}
                             {%- icon social.name, isSocialIcon -%}
                             <span class="vcard__link-text p-nickname">{{- social.user -}}</span>
