@@ -19,6 +19,11 @@ layout: base
         {% set entries = collections.work %}
         {% set microformat = "p-experience" %}
         {% include "entrylist.njk" %}
+        <br/>
+        <strong>
+            <a class="u-url" aria-label="Recommendations" href="{{ author.recommendations }}" target=”_blank”>Recommendations</a> are also available upon request.
+        </strong>
+        <br/>
     </section>
 
     <section class="section" id="section-projects">
@@ -95,22 +100,36 @@ layout: base
     {% endif %}
 
     {% if repositories.length %}
-        <section class="section" id="section-oss">
+        <section class="section no-print" id="section-oss">
             <h2 class="section__title">{{ strings.titles.open_source }}</h2>
             {% include "repositories.njk" %}
         </section>
     {% endif %}
 
-    {% if collections.custom.length %}
+    <div class="grid grid--2col">
+        {% if collections.custom.length %}
         {% set custom = collections.custom|first %}
-        <section class="section" id="section-custom">
+            <section class="section section--half" id="section-custom">
             {% if custom.data.title %}
                 <h2 class="section__title">{{ custom.data.title }}</h2>
             {% endif %}
             <div class="markdown">
                 {{ custom.templateContent | safe }}
             </div>
-        </section>
-    {% endif %}
+            </section>
+        {% endif %}
 
+        {% if collections.learning.length %}
+        {% set learning = collections.learning|first %}
+            <section class="section section--half" id="section-learning">
+            {% if learning.data.title %}
+                <h2 class="section__title">{{ learning.data.title }}</h2>
+            {% endif %}
+            <div class="markdown">
+                {{ learning.templateContent | safe }}
+            </div>
+            </section>
+        {% endif %}
+    </div>
+    
 </main>

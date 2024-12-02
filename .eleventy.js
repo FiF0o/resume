@@ -47,7 +47,6 @@ module.exports = function (config) {
     config.addLayoutAlias('resume', 'resume.njk')
 
     // Collections
-    // certfifications, projects
     const collections = ['work', 'education', 'projects', 'certifications']
     collections.forEach((name) => {
         config.addCollection(name, function (collection) {
