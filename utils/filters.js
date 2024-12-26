@@ -6,12 +6,10 @@ const isEmpty = require('lodash/isEmpty')
 
 module.exports = {
 
-    languageFilter: function(collection, lang) {
-        if (!lang) lang = this.page.lang || this.ctx.lang;
-        console.log({collection})
-        const filtered = collection.filter(item => item.page.lang == lang);
-        console.log({filtered})
-        return filtered;
+    // Content specific to section and not global (i.e translations.js)
+    languageFilter: (key, language = 'en') => {
+        const lang = require(`../src/languages/${language}.json`);
+        return lang[key] || key;
     },
 
     dateToFormat: function (date, format) {

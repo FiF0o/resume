@@ -32,12 +32,6 @@ module.exports = function (config) {
     Object.keys(filters).forEach((filterName) => {
         config.addFilter(filterName, filters[filterName])
     })
-    // Content specific to section and not global (i.e translations.js)
-    config.addFilter('languageFilter', (key, language = 'en') => {
-        const lang = require(`./src/languages/${language}.json`);
-        return lang[key] || key;
-    });
-
 
     // Transforms
     Object.keys(transforms).forEach((transformName) => {
@@ -71,17 +65,9 @@ module.exports = function (config) {
     config.addLayoutAlias('resume', 'resume.njk')
 
     // Collections
-    // Internationalization (i18n) with just English and French - Define Collections for each language
-    config.addCollection("en", (collectionApi) => {
-        return collectionApi.getFilteredByGlob("src/en/**/*.md");
-    });
-
-    config.addCollection("fr", (collectionApi) => {
-        return collectionApi.getFilteredByGlob("src/fr/**/*.md");
-    });
-
     const collections = ['work', 'education', 'projects', 'certifications']
 
+    // Internationalization (i18n) with just English and French - Define Collections for each language
     collections.forEach((name) => {
         config.addCollection(`en_${name}`, (collection) => {    
             return collection

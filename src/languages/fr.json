@@ -10,21 +10,21 @@
     ],
     "languages": [
         {
-          "name": "Francais",
-        "level": "natif"
-      },
-      {
-        "name": "Anglais",
-        "level": "secondaire"
-      },
-      {
-        "name": "Italien",
-        "level": "basique"
-      },
-      {
-        "name": "Espagnol",
-        "level": "basique"
-      }
+            "name": "Francais",
+            "level": "natif"
+        },
+        {
+            "name": "Anglais",
+            "level": "secondaire"
+        },
+        {
+            "name": "Italien",
+            "level": "basique"
+        },
+        {
+            "name": "Espagnol",
+            "level": "basique"
+        }
     ],
     "learnings": [
         "Terraform",
