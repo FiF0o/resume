@@ -1,5 +1,5 @@
 ---
-title: Psychology - Cognitive Sciences
+title: Psychologist - Cognitive Sciences
 organization: Aix-Marseille Université
 location: Aix en Provence, FR
 start: 2003-09-01

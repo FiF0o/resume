@@ -13,12 +13,12 @@ module.exports = {
         },
         about: {
             "en": "I am a web developer with over 12 years of experience in the front-end and a special background in digital design. My focus is on creating engaging, accessible & performant interfaces for humans. I am currently looking for new challenges.",
-            "fr": "Foo Foo Foo",
+            "fr": "Je suis un développeur Web avec plus de 12 ans d'expérience dans le front-end et une formation particulière en conception numérique. Mon objectif est de créer des interfaces attrayantes, accessibles et performantes pour les humains. Je suis actuellement à la recherche de nouveaux défis.",
         },
         recommendations: {
             text: {
                 "en": "Recommendations are also available upon request.",
-                "fr": "Recommendations."
+                "fr": "Références disponibles sur demande."
             }
         },
         titles: {
@@ -68,7 +68,7 @@ module.exports = {
             },
             soft_skills: {
                 "en": "Soft Skills",
-                "fr": "Non Technique"
+                "fr": "Competences Non Technique"
             }
         },
         labels: {
