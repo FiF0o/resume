@@ -12,7 +12,7 @@ module.exports = {
             "fr": "Direction Technique, Architecture, Experience Utilisateur"
         },
         about: {
-            "en": "I am a web developer with over 12 years of experience in the front-end and a special background in digital design. My focus is on creating engaging, accessible & performant interfaces for humans. I am currently looking for new challenges.",
+            "en": "Agile Full Stack Developer and Certified Scrum Master with user experience, human computer interaction and psychology background.15+ years of experience in digital, 8 years of consulting, very articulate and has proven knowledge and experience in production, usability implementation.Currently developing web applications for start-ups and enterprises with JavaScript.",
             "fr": "Je suis un développeur Web avec plus de 12 ans d'expérience dans le front-end et une formation particulière en conception numérique. Mon objectif est de créer des interfaces attrayantes, accessibles et performantes pour les humains. Je suis actuellement à la recherche de nouveaux défis.",
         },
         recommendations: {

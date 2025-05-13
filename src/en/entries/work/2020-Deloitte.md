@@ -6,4 +6,6 @@ location: London, UK
 start: 2020-02-01
 ---
 
-Porta non pulvinar neque laoreet suspendisse interdum consectetur libero id. Gravida arcu ac tortor dignissim convallis aenean et. In massa tempor nec feugiat nisl. Sed blandit libero volutpat sed cras ornare arcu dui. Morbi leo urna molestie at. Sapien faucibus et molestie ac feugiat sed lectus.
+Deloitte Digital combines the powers of creativity, technology, and consultancy.
+Working in Public Sector (GPS) occupying various roles from Technical Lead to Architecture. Managing development teams and cross functional work from client requirement gathering to cyber risks and delivery. Performing designs, development tasks, proofs of concepts, testing mostly on Azure, AWS cloud platforms.
+Successfully delivered global serverless patterns architectures at scale (millions users) with JavaScript, Java ecosystem for DVSA, NHS and Immigration sector.

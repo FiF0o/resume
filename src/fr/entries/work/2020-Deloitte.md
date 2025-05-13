@@ -6,4 +6,4 @@ location: Londres, Royaume-Uni
 start: 2020-02-01
 ---
 
-Porta
+Public Sector (GPS) occupying various roles from Technical Lead to Technical Architecture. Managing development teams and cross functional work from client requirement gathering to cyber risks and delivery. Performing development tasks, proofs of concepts. Azure, AWS cloud platforms.

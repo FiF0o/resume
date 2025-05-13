@@ -6,4 +6,9 @@ start: 2013-07-01
 end: 2014-01-01
 ---
 
-Ipsum a arcu cursus vitae congue. Arcu ac tortor dignissim convallis. Integer malesuada nunc vel risus commodo. Vitae turpis massa sed elementum. Quam elementum pulvinar etiam non quam lacus suspendisse faucibus interdum.
+I joined as a UX Lead responsible of the experience roadmap, UX Research and omnichannel product pack of their retail web application:
+- Helping the client increase sales with their telephony offerings.
+- Rapid prototyping.
+- Full interactive prototyping and user testing.
+This project helped the client pivot on the strategy already place to save costs.
+The service is live and used by millions customers.

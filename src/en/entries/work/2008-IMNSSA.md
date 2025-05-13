@@ -7,4 +7,7 @@ start: 2008-05-01
 end: 2008-12-31
 ---
 
-Ipsum a arcu cursus vitae congue. Arcu ac tortor dignissim convallis. Integer malesuada nunc vel risus commodo. Vitae turpis massa sed elementum. Quam elementum pulvinar etiam non quam lacus suspendisse faucibus interdum.
+IMNSSA is part of the Ministry of Defence.
+Assisting senior Human Factor Engineers to gather requirements and get a better understanding of senior physicians activity to create requirements for the new e-medicine software allowing patient (military in overseas theatres of operations) information sharing.
+Performing mostly ergonomics activities to understand junior and senior physicians routines in emergencies services.
+Tasks included running research protocols, analysing questionnaires, qualitative data (interviews), creating reports for senior ergonomists/HFEs to help them create requirements for the software (Lotus Notes).
