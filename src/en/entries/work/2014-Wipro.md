@@ -7,7 +7,6 @@ start: 2014-09-01
 end: 2020-02-01
 ---
 
-The full breadth of Wipro Digital and Designit capabilities in strategy, design and technology positions Wipro Digital at intersections where WD derive insight, shape interaction, develop integration and unlock innovation - with the customer's journey at the center of everything.
 UX Lead on projects, responsible for pitching UX work to Wipro Digital accounts with client partners and Global heads. Most of the accounts were from Finance.
 Clients included HSBC, US Bank, Lloyds, Novartis, Pru, Philips, Hartford.
 
