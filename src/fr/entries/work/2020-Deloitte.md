@@ -1,5 +1,5 @@
 ---
-title: Manager Senior Front End - (Manager)
+title: Architecte/Responsable technique - (Senior Manager)
 organization: Deloitte Digital
 organizationUrl: https://www.deloittedigital.com/us/en.html
 location: Londres, Royaume-Uni

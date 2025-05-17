@@ -1,22 +1,5 @@
 # Resume
 
-## TODO
-- BT
-- Exxonmobil
-- BP
-- CuteCircuit
-- Hartford
-- CitiBank
-- Ellie
-- UDF
-- AIB
-- DVSA
-- NHS
-- Visa
-
-
-An online résumé. [Demo Site](https://demo-resume.netlify.app)  
-
 ## Features
 
 * Fully Customizable
@@ -42,8 +25,6 @@ __Commands__
 * Run `npm run build` to generate a production build
 
 Deploy a fork of this template to Netlify:
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/maxboeck/resume) 
 
 
 ## Credits
