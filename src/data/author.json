@@ -1,12 +1,14 @@
 {
     "name": "Jon Lazarini",
-    "occupation": "Technical Lead, UX Practioner",
+    "occupation": "Technical Lead, UX Practitioner",
     "location": "London, UK",
     "avatar": "jon.png",
-    "pronouns": "",
     "email": "lazarini.jonathan@gmail.com",
     "telephone": "+44 7 446 130 301",
     "website": "https://fif0o.github.io",
+    "recommendations": {
+        "link": "https://www.linkedin.com/in/jonathanlazarini/details/recommendations/"
+    },
     "skills": [
         "Javascript / ES6 / Ts",
         "AWS / Azure",

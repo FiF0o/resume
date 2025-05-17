@@ -5,44 +5,60 @@ layout: base
 <main class="main container">
 
     {% if collections.introduction.length %}
-        {% set intro = collections.introduction|first %}
         <section class="section" id="section-introduction">
-            <h2 class="section__title">{{ intro.data.title }}</h2>
+            <h2 class="section__title">{{ 'titles.about' | i18n }}</h2>
             <div class="lead p-summary">
-                {{ intro.templateContent | safe }}
+                {{ 'about' | i18n }}
             </div>
         </section>
     {% endif %}
 
     <section class="section" id="section-experience">
-        <h2 class="section__title">{{ strings.titles.experience }}</h2>
-        {% set entries = collections.work %}
+        <h2 class="section__title">{{ 'titles.experience' | i18n }}</h2>
+        {% if lang == "en" %}
+            {% set entries = collections.en_work %}
+        {% else %}
+            {% set entries = collections.fr_work %}
+        {% endif %}
+
         {% set microformat = "p-experience" %}
         {% include "entrylist.njk" %}
         <br/>
         <strong>
-            <a class="u-url" aria-label="Recommendations" href="{{ author.recommendations }}" target=”_blank”>Recommendations</a> are also available upon request.
+            <a class="u-url" aria-label="Recommendations" href="{{ author.recommendations.link }}" target=”_blank”>{{ 'recommendations.text' | i18n }}</a>
         </strong>
         <br/>
     </section>
 
     <section class="section" id="section-projects">
-        <h2 class="section__title">{{ strings.titles.projects }}</h2>
-        {% set entries = collections.projects %}
+        <h2 class="section__title">{{ 'titles.projects' | i18n }}</h2>
+        {% if lang == "en" %}
+            {% set entries = collections.en_projects %}
+        {% else %}
+            {% set entries = collections.fr_projects %}
+        {% endif %}
         {% set microformat = "p-projects" %}
         {% include "entrylist.njk" %}
     </section>
 
     <section class="section" id="section-education">
-        <h2 class="section__title">{{ strings.titles.education }}</h2>
-        {% set entries = collections.education %}
+        <h2 class="section__title">{{ 'titles.education' | i18n }}</h2>
+        {% if lang == "en" %}
+            {% set entries = collections.en_education %}
+        {% else %}
+            {% set entries = collections.fr_education %}
+        {% endif %}
         {% set microformat = "p-education" %}
         {% include "entrylist.njk" %}
     </section>
 
     <section class="section" id="section-certifications">
-        <h2 class="section__title">{{ strings.titles.certifications }}</h2>
-        {% set entries = collections.certifications %}
+        <h2 class="section__title">{{ 'titles.certifications' | i18n }}</h2>
+        {% if lang == "en" %}
+            {% set entries = collections.en_certifications %}
+        {% else %}
+            {% set entries = collections.fr_certifications %}
+        {% endif %}
         {% set microformat = "p-certifications" %}
         {% include "entrylist.njk" %}
     </section>
@@ -51,7 +67,7 @@ layout: base
         <div class="grid grid--2col">
             {% if author.skills %}
             <section class="section section--half" id="section-skills">
-                <h2 class="section__title">{{ strings.titles.skills }}</h2>
+                <h2 class="section__title">{{ 'titles.skills' | i18n }}</h2>
                 <ul class="bulletlist">
                 {% for skill in author.skills %}
                     <li class="p-skill">{{ skill }}</li>
@@ -62,7 +78,7 @@ layout: base
 
             {% if author.tools %}
             <section class="section section--half" id="section-tools">
-                <h2 class="section__title">{{ strings.titles.tools }}</h2>
+                <h2 class="section__title">{{ 'titles.tools' | i18n }}</h2>
                 <ul class="bulletlist">
                 {% for tool in author.tools %}
                     <li class="p-skill">{{ tool }}</li>
@@ -73,11 +89,11 @@ layout: base
         </div>
     {% endif %}
 
-    {% if author.soft_skills or author.languages %}
+    {% if author.soft_skills or languages %}
         <div class="grid grid--2col">
             {% if author.soft_skills %}
             <section class="section section--half" id="section-soft-skills">
-                <h2 class="section__title">{{ strings.titles.soft_skills }}</h2>
+                <h2 class="section__title">{{ 'titles.soft_skills' | i18n }}</h2>
                 <ul class="bulletlist">
                 {% for sskill in author.soft_skills %}
                     <li class="p-skill">{{ sskill }}</li>
@@ -86,12 +102,12 @@ layout: base
             </section>
             {% endif %}
 
-            {% if author.languages %}
+            {% if languages %}
             <section class="section section--half" id="section-languages">
-                <h2 class="section__title">{{ strings.titles.languages }}</h2>
+                <h2 class="section__title">{{ 'titles.languages' | i18n }}</h2>
                 <ul class="bulletlist">
-                {% for language in author.languages %}
-                    <li class="p-skill">{{ language.name }} ({{ language.level }})</li>
+                {% for language in 'languages' | languageFilter(lang) %}
+                    <li class="p-skill"><strong>{{ language.name }}</strong> - ({{ language.level }})</li>
                 {% endfor %}
                 </ul>
             </section>
@@ -101,7 +117,7 @@ layout: base
 
     {% if repositories.length %}
         <section class="section no-print" id="section-oss">
-            <h2 class="section__title">{{ strings.titles.open_source }}</h2>
+            <h2 class="section__title">{{ 'titles.open_source' | i18n }}</h2>
             {% include "repositories.njk" %}
         </section>
     {% endif %}
@@ -110,11 +126,13 @@ layout: base
         {% if collections.custom.length %}
         {% set custom = collections.custom|first %}
             <section class="section section--half" id="section-custom">
-            {% if custom.data.title %}
-                <h2 class="section__title">{{ custom.data.title }}</h2>
-            {% endif %}
+            <h2 class="section__title">{{ 'titles.interests' | i18n }}</h2>
             <div class="markdown">
-                {{ custom.templateContent | safe }}
+                <ul>
+                    {% for interest in 'interests' | languageFilter(lang) %}
+                        <li> {{ interest }}</li>
+                    {% endfor %}
+                </ul>
             </div>
             </section>
         {% endif %}
@@ -122,11 +140,13 @@ layout: base
         {% if collections.learning.length %}
         {% set learning = collections.learning|first %}
             <section class="section section--half" id="section-learning">
-            {% if learning.data.title %}
-                <h2 class="section__title">{{ learning.data.title }}</h2>
-            {% endif %}
+            <h2 class="section__title">{{ 'titles.learnings' | i18n }}</h2>
             <div class="markdown">
-                {{ learning.templateContent | safe }}
+                <ul>
+                    {% for learning in 'learnings' | languageFilter(lang) %}
+                        <li> {{ learning }}</li>
+                    {% endfor %}
+                </ul>
             </div>
             </section>
         {% endif %}

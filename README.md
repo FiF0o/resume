@@ -1,5 +1,20 @@
 # Resume
 
+## TODO
+- BT
+- Exxonmobil
+- BP
+- CuteCircuit
+- Hartford
+- CitiBank
+- Ellie
+- UDF
+- AIB
+- DVSA
+- NHS
+- Visa
+
+
 An online résumé. [Demo Site](https://demo-resume.netlify.app)  
 
 ## Features

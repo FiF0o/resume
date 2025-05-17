@@ -1,0 +1,8 @@
+<nav>
+    <ul>    
+        {% for language in languages %}
+            <li><a href="/{{ language.code }}/index.html">{{ language.name }}</a> | </li>
+        {% endfor %}
+    </ul>
+</nav>
+
