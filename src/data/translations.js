@@ -12,8 +12,8 @@ module.exports = {
             "fr": "Direction Technique, Architecture, Experience Utilisateur"
         },
         about: {
-            "en": "Agile Full Stack Developer and Certified Scrum Master with user experience, human computer interaction and psychology background.15+ years of experience in digital, 8 years of consulting, very articulate and has proven knowledge and experience in production, usability implementation.Currently developing web applications for start-ups and enterprises with JavaScript.",
-            "fr": "Je suis un développeur Web avec plus de 12 ans d'expérience dans le front-end et une formation particulière en conception numérique. Mon objectif est de créer des interfaces attrayantes, accessibles et performantes pour les humains. Je suis actuellement à la recherche de nouveaux défis.",
+            "en": "Agile Full Stack Developer and Certified Scrum Master with user experience, human computer interaction and psychology background. 15+ years of experience in digital, 8 years of consulting, very articulate and has proven knowledge and experience in production, usability implementation.Currently developing web applications for start-ups and enterprises.",
+            "fr": "Développeur Full Stack Agile et Scrum Master certifié, avec un bagage en expérience utilisateur, interaction homme-machine et psychologie. Plus de 15 ans d’expérience dans le digital, dont 8 ans en conseil. Compétences avérées en environment de production et mise en œuvre de l’ergonomie. Développe actuellement des applications web pour des start-ups et des entreprises.",
         },
         recommendations: {
             text: {

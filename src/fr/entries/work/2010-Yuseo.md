@@ -7,10 +7,14 @@ start: 2010-11-01
 end: 2011-07-01
 ---
 
-Yuseo is the french leader of digital experience and research using propriatary tools enabling companies to make strategic and operational decisions through design thinking, user centric approaches. I was involved in performing any tasks, activites relative to UX research (qualitative and quantitave).
+Yuseo est le leader français de l’expérience digitale et de la recherche utilisateur, utilisant des outils propriétaires permettant aux entreprises de prendre des décisions stratégiques et opérationnelles grâce au design thinking et à des approches centrées utilisateur.
+J’étais impliqué dans l’ensemble des tâches liées à la recherche UX (qualitative et quantitative).
 
-Screening, emailing, running and organising sessions, reports and client presentations, eye tracking, card sorting, various ergonomics online questionnaires , MVT & AB Testing, usability testing, user testings.
-I was creating online surveys to feed a prioprietary database assessing UX trends and competitors known as the 'UX Barometer'. I was also responsible of writting sections of UX research and findings in the UX barometer white book. Helping the marketing team running online campaigns through emailing tools.
+Cela incluait : le recrutement de participants, l’envoi d’emails, l’organisation et l’animation de sessions, la rédaction de rapports et de présentations clients, les tests oculométriques (eye-tracking), le tri de cartes (card sorting), divers questionnaires ergonomiques en ligne, les tests MVT et A/B, les tests d’utilisabilité et les tests utilisateurs.
 
-Low level wireframing for clients after ideation stages, experience mapping and product roadmap definition.
-Clients included Air France, Axa, Paypal, Deezer, Sunweb, Bottega Veneta, Dior, LVMH, Philips.
+Je créais également des enquêtes en ligne alimentant une base de données propriétaire destinée à évaluer les tendances UX et les concurrents, connue sous le nom de « Baromètre UX ».
+J’étais responsable de la rédaction de sections des résultats et analyses UX dans le livre blanc du Baromètre UX. J’assistais également l’équipe marketing dans la gestion de campagnes en ligne via des outils d’emailing.
+
+Je réalisais des wireframes low fidelity pour les clients après les phases d’idéation, ainsi que des cartographies d’expérience et la définition de roadmaps produit.
+
+Parmi les clients figuraient : Air France, Axa, Paypal, Deezer, Sunweb, Bottega Veneta, Dior, LVMH, Philips.

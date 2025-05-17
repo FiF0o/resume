@@ -7,9 +7,10 @@ start: 2010-03-01
 end: 2010-11-01
 ---
 
-LOUSTIC is a multidisciplinary research platform on the uses of information and communication technologies.
-Responsible of performing UX Research activities for governmental products related to e-learning. Tasks included defining product hypothesis based on market & academic research, participant recruitment, screening, interviews, focus groups (across the France), qualitative data analysis, user testing and creating reports for future specifications.
-The main project I was assigned to was the design of an e-learning platform, support, for homecare assistants.
+LOUSTIC est une plateforme de recherche pluridisciplinaire sur les usages des technologies de l’information et de la communication.
+Responsable de la réalisation d’activités de recherche UX pour des produits gouvernementaux liés à l’e-learning. Les missions comprenaient la définition d’hypothèses produit à partir de recherches académiques et de marché, le recrutement et le tri des participants, la conduite d’entretiens et de groupes de discussion (à travers la France), l’analyse qualitative des données, les tests utilisateurs, ainsi que la rédaction de rapports pour les spécifications futures.
 
-Mastering inferential statistical analysis to give guidance on behaviours and validating product hypothesis for specifications.
-Project included multiple partners for its implementation (Government as the main sponsor and stakeholder as well as several agencies).
+Le principal projet auquel j’ai été affecté portait sur la conception d’une plateforme e-learning d’accompagnement pour les aides à domicile.
+
+Maîtrise de l’analyse statistique inférentielle pour orienter l’interprétation des comportements et valider les hypothèses produit en vue de leur spécification.
+Le projet impliquait plusieurs partenaires pour sa mise en œuvre, avec le gouvernement comme principal sponsor et partie prenante, ainsi que plusieurs agences associées.

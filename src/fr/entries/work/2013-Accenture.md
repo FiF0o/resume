@@ -7,9 +7,8 @@ start: 2013-07-01
 end: 2014-11-01
 ---
 
-I joined Accenture Mobility part of Accenture Digital where I had management consulting responsibilities as well as managing Associate consultants.
-I was involved in mobility projects (web & native) mainly to help crafting end user experiences in various sectors such as O&G, Telecom, Retail, Banking for global accounts across the world (Europe, USA, China).
-Clients included Belgacom, RBS, Bank of Ireland, Barclays, Exxon, Shell, BP.
+J’ai rejoint Accenture Mobility, une entité d’Accenture Digital, où j’étais en charge de missions de conseil en management ainsi que de la gestion de consultants associés.
+J’ai participé à des projets de mobilité (web & natif) visant principalement à concevoir des expériences utilisateurs dans divers secteurs tels que l’énergie, les télécommunications, le retail et la banque pour des comptes globaux à travers le monde (Europe, USA, Chine).
 
-Responsible of define UX strategy for clients and project scopes as well as operational UX activities such as Research to full prototyping and testing.
-Helping pre-sales and client accounts to pitch in UX. Operational tasks included stakeholder management, product roadmap, research activities (qualitative & quantitative) such as usability testing, user testing, online questionnaires, analytics analysis and design.
+Responsable de la définition des stratégies UX pour les clients ainsi que des périmètres des projets, en menant des activités UX opérationnelles allant de la recherche au prototypage complet et aux tests.
+Soutien aux équipes avant-vente et aux comptes clients pour présenter les approches UX. Les tâches opérationnelles comprenaient la gestion des parties prenantes, la définition de roadmap produit, des activités de recherche (qualitatives et quantitatives) telles que les tests d’utilisabilité, les tests utilisateurs, les questionnaires en ligne, l’analyse des données (analytics) et la conception.

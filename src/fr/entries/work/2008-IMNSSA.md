@@ -7,7 +7,8 @@ start: 2008-05-01
 end: 2008-12-31
 ---
 
-IMNSSA is part of the Ministry of Defence.
-Assisting senior Human Factor Engineers to gather requirements and get a better understanding of senior physicians activity to create requirements for the new e-medicine software allowing patient (military in overseas theatres of operations) information sharing.
-Performing mostly ergonomics activities to understand junior and senior physicians routines in emergencies services.
-Tasks included running research protocols, analysing questionnaires, qualitative data (interviews), creating reports for senior ergonomists/HFEs to help them create requirements for the software (Lotus Notes).
+L’IMNSSA fait partie du Ministère de la Défense.
+J’ai assisté des ingénieurs facteurs humains seniors dans la collecte des besoins et la compréhension des activités des médecins seniors, afin de formuler les spécifications pour un nouveau logiciel de télémédecine destiné au partage d’informations sur les patients (militaires en opérations extérieures).
+
+Je menais principalement des activités d’ergonomie afin de mieux comprendre les routines des médecins juniors et seniors dans les services d’urgence.
+Les tâches comprenaient la mise en œuvre de protocoles de recherche, l’analyse de questionnaires, de données qualitatives (entretiens), et la rédaction de rapports à destination des ergonomes / ingénieurs facteurs humains seniors pour les aider à définir les exigences du logiciel (Lotus Notes).

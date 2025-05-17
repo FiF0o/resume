@@ -7,4 +7,4 @@ start: 2007-02-01
 end: 2007-06-01
 ---
 
-Assisted Human Factor Engineers at the French National Institute for Transport and Safety Research, helping with experimental approach and scientific papers.
+Assistance aux ingénieurs facteurs humains à l’Institut National de Recherche sur les Transports et leur Sécurité (INRETS), participation à l’approche expérimentale et à la rédaction d’articles scientifiques.

@@ -7,9 +7,9 @@ start: 2011-07-01
 end: 2012-04-01
 ---
 
-Renault is a French multinational automobile manufacturer.
-I joined the HFE & Ergonomics department in charge of creating product specifications and testing and was assigned to projects for cars ranging from 15 to €45k.
-Main projects included the MMI/HMI specifications of their new gear shit as well as working closely with product design teams for its design and implementation.
-I also created specifications for their suppliers to implement to new generation of touch screens (7' & 9') to be embedded in the dashboards as well as its information architecture and design (wirefames & UI). Worked closely with the researchers to follow up on user testing sessions and market/competitor research.
+Renault est un constructeur automobile multinational français.
+J’ai intégré le département HFE & Ergonomie, en charge de la création des spécifications produit et des phases de test, et j’ai été affecté à des projets pour des véhicules dont les prix variaient de 15 000 à 45 000 €.
+Les principaux projets incluaient la spécification MMI/HMI du nouveau levier de vitesses, en collaboration étroite avec les équipes de design produit pour sa conception et sa mise en œuvre.
 
-This was the most challenging environement I have ever worked with.
+J’ai également rédigé les spécifications destinées aux fournisseurs pour l’intégration d’une nouvelle génération d’écrans tactiles (7" et 9") à intégrer dans les tableaux de bord, ainsi que l’architecture de l’information et le design (wireframes et UI).
+Travail en étroite collaboration avec les chercheurs pour le suivi des sessions de tests utilisateurs et les recherches de marché / analyses concurrentielles.

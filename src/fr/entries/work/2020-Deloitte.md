@@ -6,4 +6,4 @@ location: Londres, Royaume-Uni
 start: 2020-02-01
 ---
 
-Public Sector (GPS) occupying various roles from Technical Lead to Technical Architecture. Managing development teams and cross functional work from client requirement gathering to cyber risks and delivery. Performing development tasks, proofs of concepts. Azure, AWS cloud platforms.
+Secteur public (GPS), occupant divers rôles allant de Responsable Technique à Architecte Technique. Gestion d’équipes de développement et de travaux transversaux, depuis la collecte des besoins clients jusqu’aux risques cyber et à la livraison. Réalisation de tâches de développement, de preuves de concept, support en production principalement sur les plateformes cloud Azure et AWS.

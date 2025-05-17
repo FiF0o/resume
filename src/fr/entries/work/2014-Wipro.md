@@ -7,9 +7,7 @@ start: 2014-09-01
 end: 2020-02-01
 ---
 
-The full breadth of Wipro Digital and Designit capabilities in strategy, design and technology positions Wipro Digital at intersections where WD derive insight, shape interaction, develop integration and unlock innovation - with the customer's journey at the center of everything.
-UX Lead on projects, responsible for pitching UX work to Wipro Digital accounts with client partners and Global heads. Most of the accounts were from Finance.
-Clients included HSBC, US Bank, Lloyds, Novartis, Pru, Philips, Hartford.
+Responsable UX sur les projets, chargé de présenter les travaux UX aux comptes de Wipro Digital en collaboration avec les partenaires clients et les responsables globaux. La majorité des comptes étaient issus du secteur financier.
 
-Working closely with Wipro Digital engineering (future Buildit) team to implement and adopt a lean UX approach as a best practice when pitching to clients. UX operational work from research (ux strategy, defining experience maps, product roadmaps, requirements gathering through workshops), to full prototyping using various tools such as Axure, Adobe, Sketch, inVision or more technical tools like Framerjs, Origami, Hype.
-In charge of overseing UX research activities and mentoring.
+Collaboration étroite avec l’équipe d’ingénierie de Wipro Digital (future Buildit) pour mettre en œuvre et adopter une approche Lean UX comme bonne pratique lors des présentations aux clients. Travail UX opérationnel allant de la recherche (stratégie UX, définition de parcours d’expérience, roadmaps produit, collecte des besoins via des ateliers) jusqu’au prototypage complet à l’aide de divers outils tels que Axure, Adobe, Sketch, InVision ou d’outils plus techniques comme Framerjs, Origami, Hype.
+Responsable de la supervision des activités de recherche UX et du mentorat des équipes.

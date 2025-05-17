@@ -6,4 +6,4 @@ start: 2015-01-01
 end: 2015-05-01
 ---
 
-Ipsum
+Mise en œuvre d’un styleguide et design system pour les produits grand public de Philips, en adoptant une approche Atomic Design (Angular, NodeJs, Sass).
