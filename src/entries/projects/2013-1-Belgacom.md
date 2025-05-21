@@ -1,9 +1,0 @@
----
-title: Omni Channel Experience
-organization: Belgacom
-location: Brussels, BEL
-start: 2013-07-01
-end: 2014-01-01
----
-
-Ipsum a arcu cursus vitae congue. Arcu ac tortor dignissim convallis. Integer malesuada nunc vel risus commodo. Vitae turpis massa sed elementum. Quam elementum pulvinar etiam non quam lacus suspendisse faucibus interdum.
