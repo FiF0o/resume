@@ -34,9 +34,9 @@
                 </a>
             {% endif %}
             {% if author.website %}
-                <a class="vcard__link u-url" aria-label="Website" href="{{ author.website }}" target=”_blank”>
+                <a class="vcard__link u-url" aria-label="Website" href="{{ author.website.url }}" target=”_blank”>
                     {% icon "laptop" %}
-                    <span class="vcard__link-text">{{ author.website | stripProtocol }}</span>
+                    <span class="vcard__link-text">{{ author.website.link | stripProtocol }}</span>
                 </a>
             {% endif %}
 
