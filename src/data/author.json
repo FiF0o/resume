@@ -5,7 +5,10 @@
     "avatar": "jon.png",
     "email": "lazarini.jonathan@gmail.com",
     "telephone": "+44 7 446 130 301",
-    "website": "https://fif0o.github.io",
+    "website": {
+        "link": "website",
+        "url": "https://my-site-beta-gilt.vercel.app/"
+    },
     "recommendations": {
         "link": "https://www.linkedin.com/in/jonathanlazarini/details/recommendations/"
     },
