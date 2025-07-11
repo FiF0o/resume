@@ -1,8 +1,4 @@
 module.exports = {
-        pronouns: {
-            "en": "",
-            "fr": ""
-        },
         location: {
             "en": "London, UK",
             "fr": "Londres, Royaume Uni"
