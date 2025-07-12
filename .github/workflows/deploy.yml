@@ -4,12 +4,14 @@ on:
   push:
     branches:
       - master
+      - test
   workflow_run:
     workflows: ["CI"]
     types:
       - completed
     branches:
       - master
+      - test
 
 permissions:
   contents: read
@@ -24,8 +26,10 @@ concurrency:
 
 jobs:
   deploy:
-    # Only run if the CI workflow was successful
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    # Only run if:
+    # 1. Triggered by direct push, OR
+    # 2. Triggered by workflow_run AND the CI workflow was successful
+    if: ${{ github.event_name == 'push' || (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success') }}
     
     environment:
       name: github-pages
